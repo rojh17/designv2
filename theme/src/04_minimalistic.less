@@ -1,0 +1,47 @@
+/*!
+ * Stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+@import "kmom04.less";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@bgColorHtml: #aaaaaa; //#424242;
+@bgColorBody: #aaaaaa;
+@colorBody: #dddddd; //#333;
+@textColor: #111111;
+@accentFarg: #ff851b;
+@fontFamilyBody:  'Open Sans Condensed', sans-serif;
+
+body {
+    color: @textColor;
+}
+
+h1,
+h4 {
+    color: @accentFarg ;
+}
+
+.outer-wrap-header {
+    background-color: #fff;
+}
+
+.outer-wrap-footer {
+    background-color: @bgColorBody;
+
+    & h4 {
+        color: @textColor;
+    }    
+}
+
+
+
+a {
+    color: @textColor;
+}
+
+.site-logo-text a {
+    color: @accentFarg;
+}

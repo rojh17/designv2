@@ -1,5 +1,10 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+/*!
+ * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom03 where we use LESS.
  */
@@ -4376,13 +4381,13 @@ template {
  */
 html {
   overflow-y: scroll;
-  background-color: #eee;
+  background-color: #333;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #111;
-  background-color: #fff;
+  color: #333;
+  background-color: #333;
   font: 16px/1.375 'Raleway', sans-serif;
 }
 img {
@@ -5243,3 +5248,19 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * My own settings, not currently in their own module.
  */
+body {
+  color: #111111;
+}
+.outer-wrap-header {
+  background-color: #333;
+}
+.outer-wrap-footer {
+  background-color: #333;
+  color: #dddddd;
+}
+.site-logo-text a {
+  color: #111111;
+}
+a {
+  color: #111111;
+}

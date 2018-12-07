@@ -5016,6 +5016,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 .region-header-col-2 ul {
   list-style-type: none;
 }
+.rm-desktop li {
+  background-color: #fff;
+}
 .site-logo {
   display: none;
 }
