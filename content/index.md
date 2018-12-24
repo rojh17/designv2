@@ -3,9 +3,9 @@ title: "Min fina titel"
 
 views:
     byline:
-        region: main
+        region: after-main
         template: anax/v2/block/default
-        sort: 2
+        sort: 1
         data:
             meta:
                 type: single

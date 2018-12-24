@@ -1,0 +1,78 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #eee; //#424242;
+@bgColorBody: #fff;
+@colorBody: #111; //#333;
+@accentFarg: #ff851b;
+//@fontFamilyBody: serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    // Activate the grid base font
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+h1,
+h4 {
+    animation: pulsate 6s linear infinite;
+    //color: @accentFarg ;
+}
+
+@keyframes pulsate {
+    0% {
+        color: #ff9b10;
+    }
+
+    10% {
+        color: #e8750e;
+    }
+
+    20% {
+        color: #ff660d;
+    }
+
+    30% {
+        color: #e8470e;
+    }
+
+    40% {
+        color: #ff3815;
+    }
+
+    50% {
+        color: #ff210c;
+    }
+
+    60% {
+        color: #ff3815;
+    }
+
+    70% {
+        color: #e8470e;
+    }
+
+    80% {
+        color: #ff660d;
+    }
+
+    90% {
+        color: #e8750e;
+    }
+
+    100% {
+        color: #ff9b10;
+    }
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
